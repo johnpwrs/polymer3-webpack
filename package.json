@@ -22,7 +22,29 @@
     "@webcomponents/webcomponentsjs": "^1.0.20"
   },
   "resolutions": {
-    "@webcomponents/webcomponentsjs": "1.0.20"
+    "acorn": "5.2.1",
+    "ajv": "5.5.2",
+    "source-map": "0.6.1",
+    "yargs": "8.0.2",
+    "inherits": "2.0.3",
+    "minimist": "1.2.0",
+    "punycode": "1.4.1",
+    "hash-base": "3.0.4",
+    "camelcase": "4.1.0",
+    "cliui": "3.2.0",
+    "kind-of": "4.0.0",
+    "is-number": "3.0.0",
+    "string-width": "2.1.1",
+    "strip-ansi": "4.0.0",
+    "is-fullwidth-code-point": "2.0.0",
+    "ansi-regex": "3.0.0",
+    "assert-plus": "1.0.0",
+    "extsprintf": "1.4.0",
+    "async": "2.6.0",
+    "wordwrap": "0.0.3",
+    "qs": "6.4.0",
+    "nopt": "4.0.1",
+    "pify": "3.0.0"
   },
   "devDependencies": {
     "http-server": "^0.10.0",
