@@ -1,7 +1,6 @@
-// Element is the same as Polymer.Element in 2.x
-// Modules give you the freedom to rename the members that you import
-import {Element as PolymerElement}
-    from '@polymer/polymer/polymer-element.js';
+import {
+  Element as PolymerElement
+} from '@polymer/polymer/polymer-element.js';
 
 export class MainComponent extends PolymerElement {
 

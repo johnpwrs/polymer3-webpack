@@ -1,4 +1,6 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const bundleOrder = ['polyfills', 'main'];
 
 module.exports = {
   entry: {
@@ -8,5 +10,11 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
-  }
+  },
+  plugins: [new HtmlWebpackPlugin({
+    template: './src/index.html',
+    chunksSortMode: function(a, b) {
+      return bundleOrder.indexOf(a.names[0]) - bundleOrder.indexOf(b.names[0]);
+    }
+  })]
 };
